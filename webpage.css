@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbg{
+    height: 60px;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+
+}
+.top-sectionL img{
+    max-width: 100px;
+    filter: invert(100%)
+}
+.logo h2{
+    color: white;
+    margin-left: 2em;
+}
+.navbtn button{
+    background-color: #7AA93C;
+    color: white;
+    padding: 5px 12px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-right: 2em;
+    font-size: 18px;
+}
+/* .top-sectionL.fab {
+    font-size: 80px !important;
+
+} */
+.full-top{
+    display: flex;
+    flex-direction: column;
+    background-color: #2E2E35;
+    height: 100vh;
+    
+
+}
+.top-section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3em;
+    margin-top: 5em;
+   
+
+    color: white;
+    align-items: center;
+
+
+}
+.top-sectionR ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  
+    
+   
+}
+.top-section ul  a {
+    text-decoration: none;
+    color: white;
+    margin-left: 2em;
+}
+.con{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 8em;
+}
+.con .con1 button{
+    color: #e4aa48;
+}
+.con1 h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.con1 p{
+    margin-top: 1em;
+    font-size: 20px;
+}
+.con1 button{
+    margin-top: 1em;
+    padding: 10px 15px;
+    font-size: 22px;
+    
+    border: 2px solid #e4aa48 ;
+    background: transparent;
+
+}
+.con2  img{
+    margin-top: 
+    -3em;
+}
+.con3 h3{
+    font-size: 25px;
+    color: #e4aa48;
+}
+.con3 h2{
+    margin-top: 0.3em;
+    font-size: 30px;
+}
+.con3 p{
+    margin-top: 0.2em;
+}
+
+.mini-project,.main-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 300px;
+    width: 300px;
+    background-color: #2E2E35;
+
+}
+.main-project{
+    margin-left: 2em;
+}
+.project2main{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    
+    
+
+}
+.project{
+    display: flex;
+    background-color: #34343B;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    
+
+}
+.main-project .fa,.main-project .fas,.mini-project .fa,.mini-project .fas{
+    font-size: 5em;
+    font-weight: 300 !important;
+
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mini-project p{
+    display: block;
+}
+.project1{
+    text-align: center;
+    margin-top: 2em;
+}
+.project1 h3,.gallery h3,.contact h3{
+    font-size: 25px;
+    
+}
+.project1 h2,.gallery h2,.contact h2{
+    font-size: 30px;
+    margin-top: 0.3em;
+    color: white;
+}
+.project1 p,.gallery p,.contact p{
+    margin-top: 0.2em;
+    color: white;
+    font-size: 20px;
+}
+.main-project h2,.mini-project h2{
+    margin-top: 1em;
+}
+
+.gal2{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 2em;
+    
+}
+ .g-img1{
+     padding: 20px 10px;
+
+
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E2E35;
+    height: 100vh;
+    
+}
+.gal1,.cont1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #34343B;
+    height: 100vh;
+    
+}
+.fas .fa-at,.fas .fa-phone,.fab .fa-whatsapp,.fab .fa-instagram{
+    font-size: 25px !important;
+
+    
+}
+.contact .cont2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    flex-wrap: wrap;
+    margin-top: 2em;
+
+}
+.whatsapp,.insta,.phone{
+    margin-left: 2em; 
+    
+}
+.mail,.whatsapp,.insta,.phone{
+    padding: 1em;
+    border: 2px solid #e4aa48;
+    width: 300px;
+
+}
+.socialmedia{
+    display: flex;
+
+}
+.phone,.insta{
+    margin-top: 2em;
+}
+.phone{
+    margin-left: -0.1em;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#2E2E35 ;
+    height: 50px;
+
+
+}
+.footer p{
+    text-align: center;
+    color: white;
+    
+}
